@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Combined Overlay</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+  }
+  /* Chat on left bottom */
+  #chat {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    height: 500px;
+  }
+  /* Streamlabs alerts top center */
+  #streamlabs-alerts {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 200px;
+  }
+  /* Nimo alerts top right */
+  #nimo-alerts {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 200px;
+  }
+  /* Tikfinity actions bottom right */
+  #tikfinity {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 500px;
+  }
+  /* StreamElements subcount / recent sub top left */
+  #subcount {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 150px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Social Stream Ninja Chat -->
+<iframe id="chat" src="https://socialstream.ninja/dock.html?session=cxbfKsNRwF&password=false&savesingle&fadein&transparent&hidemenu" frameborder="0" scrolling="no"></iframe>
+
+<!-- Streamlabs Alert Box -->
+<iframe id="streamlabs-alerts" src="https://streamlabs.com/alert-box/v3/4F1C3C87DAF6D900309FAD8242BC214D0AACAEFB01F67AE1A1380A03C7E94A78884D4748C8E71ED99FD60AFE1A51E037F5915E574AFC5530CDEB36DBD6FE98B18356EFAA2D4D6FE3F23D0784787146432875F5E417A60E23C8A7B4D42C6B2968CE4A8AE2562640D8851B2DFC6AF00F6B3AD95B9D4C8B4385E50D4D9EB7" frameborder="0" scrolling="no"></iframe>
+
+<!-- Nimo Alerts -->
+<iframe id="nimo-alerts" src="https://www.nimo.tv/vidwalla/alert-box?v=1&t=1773613907&id=1578570016&s=0243e7faef2e&_lang=1033" frameborder="0" scrolling="no"></iframe>
+
+<!-- Tikfinity Actions Widget -->
+<iframe id="tikfinity" src="https://tikfinity.zerody.one/widget/myactions?cid=1269166&screen=1" frameborder="0" scrolling="no"></iframe>
+
+<!-- StreamElements Subcount / Recent Sub -->
+<iframe id="subcount" src="https://streamelements.com/overlay/69b5ec295758664de21d293c/0it5-Ja7NUYvfelSaRAzP-LWn5Kvqu2DwRSHZEtnoWwaxQgP" frameborder="0" scrolling="no"></iframe>
+
+</body>
+</html>
